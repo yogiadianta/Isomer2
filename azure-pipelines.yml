@@ -31,5 +31,5 @@ steps:
   displayName: 'Login'
 
 - script: 
-    az storage blob upload-batch --account-name isomerstorage2 -s _site -d '$web' 
+    az storage blob upload-batch --account-name examplegithubstorage -s _site -d '$web' 
   displayName : 'Sync _site'
